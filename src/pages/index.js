@@ -4,8 +4,8 @@ import InfoSection from "../components/infoSection";
 import { Navbar } from "./../components/navbar";
 import { Sidebar } from "./../components/sidebar";
 
-import Image1 from "../images/design-notes.svg";
-import Image2 from "../images/space.svg";
+import Image1 from "../images/resume.svg";
+import Image2 from "../images/resume.svg";
 import InfoSectionLight from "../components/infoSectionLight";
 import Services from "../components/services";
 import Footer from "../components/footer";
