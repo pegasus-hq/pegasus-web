@@ -1,7 +1,7 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "../../App.css";
-import { InfoContainer, InfoWrapper, Subtitle, Title } from "./infoElements";
+import { InfoContainer, InfoWrapper, Subtitle, Title } from "./InfoElements";
 import { ButtonBasicInv } from "../ButtonElements";
 
 export const InfoSectionLight = ({
