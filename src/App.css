@@ -1,38 +1,92 @@
-.App {
+@import url("https://fonts.googleapis.com/css?family=Josefin+Sans");
+@import url("https://fonts.googleapis.com/css?family=Encode+Sans+Expanded");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Encode Sans Expanded", sans-serif;
+}
+
+.logo-text {
+  font: "Josefin Sans";
+
+}
+
+.center-align {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.black-bg {
+  background: black;
+
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.white-bg {
+  background: white;
+
+}
+
+.primary-bg {
+  background: #B05FFD;
+
+}
+
+.h1-hero {
+  color: #fff;
+  font-size: 48px;
+  text-align: center;
+  font-weight: bold;
+
+  @media screen and (max-width: 768px) {
+    font-size: 40px;
   }
+
+  @media screen and (max-width: 480px) {
+    font-size: 32px;
+  }
+
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.hero-text {
+  color: #fff;
+  font-size: 24px;
+  text-align: center;
+
+}
+
+.img-wrap {
+  height: 100%;
+  max-width: 700px;
+  margin: auto;
+
+}
+
+.fit-img {
+  width: 100%;
+
+}
+
+.expand-row {
+  width: 100%;
+}
+
+.white-text {
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.black-text {
+  color: black;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.gray-text {
+  color: gray;
+}
+
+.pl {
+  padding-left: 20px;
+}
+
+.pr {
+  padding-right: 20px;
 }
