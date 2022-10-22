@@ -1,8 +1,8 @@
 import React from "react";
 import {ServicesContainer, ServicesH1, ServicesWrapper, ServicesCard, ServicesIcon, ServicesH2, ServicesP} from "./ServicesElements";
-import Icon1 from "../../images/resume.svg"
-import Icon2 from "../../images/resume.svg"
-import Icon3 from "../../images/resume.svg"
+import Icon1 from "../../images/certificate.svg"
+import Icon2 from "../../images/verified-resume.svg"
+import Icon3 from "../../images/visualize.svg"
 
 const Services = () => {
   return (
@@ -11,28 +11,32 @@ const Services = () => {
       <ServicesWrapper>
         <ServicesCard>
           <ServicesIcon src={Icon1} />
-          <ServicesH2>Donec quis</ServicesH2>
+          <ServicesH2>Verified Credentials</ServicesH2>
           <ServicesP>
-            Fusce fringilla est ut velit finibus ultricies. Pellentesque id
-            eleifend erat.
+            Get verifiable proof and non-tradeable NFTs for your work
           </ServicesP>
         </ServicesCard>
         <ServicesCard>
           <ServicesIcon src={Icon2} />
-          <ServicesH2>Maecenas ac posuere</ServicesH2>
+          <ServicesH2>Portfolio Generation</ServicesH2>
           <ServicesP>
-            Donec nec maximus sapien. Aenean efficitur urna sed felis varius, ut
-            convallis odio tempor. Sed volutpat nulla aliquam egestas cursus.
+            Download your verified portfolios with the click of a button
           </ServicesP>
         </ServicesCard>
         <ServicesCard>
           <ServicesIcon src={Icon3} />
-          <ServicesH2>Duis et lectus</ServicesH2>
+          <ServicesH2>Social Networking</ServicesH2>
           <ServicesP>
-            Aenean in egestas lectus. Pellentesque habitant morbi tristique
-            senectus et netus et malesuada fames ac turpis egestas.s
+            Engage and connect in a richer way, with only reliable information
           </ServicesP>
         </ServicesCard>
+        {/* <ServicesCard>
+          <ServicesIcon src={Icon3} />
+          <ServicesH2>Claim Verification</ServicesH2>
+          <ServicesP>
+            Validate claims made by anyone regarding their work
+          </ServicesP>
+        </ServicesCard> */}
       </ServicesWrapper>
     </ServicesContainer>
   );

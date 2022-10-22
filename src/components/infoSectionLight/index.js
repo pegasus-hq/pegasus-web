@@ -12,6 +12,10 @@ export const InfoSectionLight = ({
   image,
   btnText,
 }) => {
+  const openInNewTab = url => {
+    window.open(url, '_blank', 'noopener,noreferrer');
+  };
+
   return (
     <>
       <InfoContainer id={id} className="bg-white">
@@ -24,8 +28,12 @@ export const InfoSectionLight = ({
               <Subtitle>{subtitle}</Subtitle>
               <Title className="text-black mb-5">{title}</Title>
               <p className="text-black mb-4">{text}</p>
-              <ButtonBasicInv to="" primary="false" dark="true" className="mx-auto">
-                {btnText}
+              <ButtonBasicInv onClick={(e) => {
+                e.preventDefault();
+                openInNewTab("https://www.immutable.com/blog/immutable-x-is-making-nfts-carbon-neutral-on-ethereum");
+              }} 
+              primary="false" dark="true" className="mx-auto">
+                  {btnText}
               </ButtonBasicInv>
             </div>
           </div>
