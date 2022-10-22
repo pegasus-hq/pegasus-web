@@ -27,7 +27,7 @@ export const Home = () => {
         image={Image3}
         id="about"
         // subtitle=""
-        title="Pegasus Networks"
+        title="Pegasus"
         text="We all use LinkedIn to display our professional and academic work. But why should you believe what you see? 
         Nothing stops you from adding any experience you please on your profile, and this is a breeding ground for misinformation. 
         Pegasus verifies all of this, giving you a more meaningful platform to engage with others, through personal NFTs that 
