@@ -4,7 +4,7 @@ import {Link as LinkR} from 'react-router-dom'
 
 export const Button = styled(LinkS)`
     border-radius: 50px;
-    background: ${({primary}) => (primary ? '#B05FFD' : '#010606')};
+    background: ${({primary}) => (primary ? '#1584EE' : '#010606')};
     white-space: nowrap;
     padding: ${({big}) => (big ? '14px 48px' : '12px 30px')};
     color: ${({dark}) => (dark ? '#010606' : '#fff')};
@@ -19,14 +19,14 @@ export const Button = styled(LinkS)`
     text-decoration: none;
     font-weight: 600;
     &:hover {
-        background: ${({primary}) => (primary ? '#fff' : '#B05FFD')};
+        background: ${({primary}) => (primary ? '#fff' : '#1584EE')};
         color: ${({dark}) => (dark ? '#010606' : '#fff')};
     }
 `
 
 export const ButtonR = styled(LinkR)`
     border-radius: 50px;
-    background: ${({primary}) => (primary ? '#B05FFD' : '#010606')};
+    background: ${({primary}) => (primary ? '#1584EE' : '#010606')};
     white-space: nowrap;
     padding: ${({big}) => (big ? '14px 48px' : '12px 30px')};
     color: ${({dark}) => (dark ? '#010606' : '#fff')};
@@ -41,14 +41,14 @@ export const ButtonR = styled(LinkR)`
     text-decoration: none;
     font-weight: 600;
     &:hover {
-        background: ${({primary}) => (primary ? '#fff' : '#B05FFD')};
+        background: ${({primary}) => (primary ? '#fff' : '#1584EE')};
         color: ${({dark}) => (dark ? '#010606' : '#fff')};
     }
 `
 
 export const ButtonBasic = styled(LinkS)`
     border-radius: 50px;
-    background: ${({primary}) => (primary ? '#B05FFD' : '#010606')};
+    background: ${({primary}) => (primary ? '#1584EE' : '#010606')};
     white-space: nowrap;
     padding: ${({big}) => (big ? '14px 48px' : '12px 30px')};
     color: ${({dark}) => (dark ? '#010606' : '#fff')};
@@ -64,14 +64,14 @@ export const ButtonBasic = styled(LinkS)`
     text-decoration: none;
     font-weight: 600;
     &:hover {
-        background: ${({primary}) => (primary ? '#fff' : '#B05FFD')};
+        background: ${({primary}) => (primary ? '#fff' : '#1584EE')};
         color: ${({dark}) => (dark ? '#010606' : '#fff')};
     }
 `
 
 export const ButtonBasicInv = styled(LinkS)`
     border-radius: 50px;
-    background: ${({primary}) => (primary ? '#B05FFD' : '#010606')};
+    background: ${({primary}) => (primary ? '#1584EE' : '#010606')};
     white-space: nowrap;
     padding: ${({big}) => (big ? '14px 48px' : '12px 30px')};
     color: ${({dark}) => (dark ? '#010606' : '#fff')};

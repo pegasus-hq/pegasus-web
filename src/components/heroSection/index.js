@@ -16,17 +16,25 @@ const HeroSection = () => {
     setHover(!hover);
   };
 
+  const openInNewTab = url => {
+    window.open(url, '_blank', 'noopener,noreferrer');
+  };
+
   return (
     <HeroContainer>
       <HeroContent>
-        <h1 className="h1-hero">Reaching Goals Made Easy</h1>
+        <h1 className="h1-hero">Certifying Your Academic and Professional Work</h1>
         <p className="hero-text">
-          Sign up today and recieve $250 in credit for your next sucessfull
-          project.
+          {/* Sign up today and recieve $250 in credit for your next successful
+          project. */}
         </p>
         <HeroBtnWrapper>
-          <ButtonR to="/signin" onMouseEnter={onHover} onMouseLeave={onHover} primary="true" dark="true">
-            Get started {hover ? <ArrowForward /> : <ArrowRight />}
+          <ButtonR onClick={(e) => {
+            e.preventDefault();
+            openInNewTab("https://airtable.com/shrQ4fn5byIdJZfq4")
+            }}
+            onMouseEnter={onHover} onMouseLeave={onHover} primary="true" dark="true">
+            Join Waitlist {hover ? <ArrowForward /> : <ArrowRight />}
           </ButtonR>
         </HeroBtnWrapper>
       </HeroContent>

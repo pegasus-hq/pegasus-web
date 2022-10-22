@@ -24,6 +24,6 @@ export const FooterLink = styled.a`
     display: flex;
     transition: all 0.3s;
     &:hover {
-        color: #B05FFD;
+        color: #1584EE;
     }
 `
