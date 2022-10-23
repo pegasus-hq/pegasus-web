@@ -2,9 +2,8 @@ import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "../../App.css";
 import { InfoContainer, InfoWrapper, Subtitle, Title } from "./InfoElements";
-import { ButtonBasic } from "../ButtonElements";
 
-export const InfoSection = ({ id, title, subtitle, text, image, btnText }) => {
+export const InfoSection = ({ id, title, subtitle, text, image }) => {
   return (
     <>
       <InfoContainer id={id} className="bg-black">
@@ -14,9 +13,6 @@ export const InfoSection = ({ id, title, subtitle, text, image, btnText }) => {
               <Subtitle>{subtitle}</Subtitle>
               <Title style={{color: "#1584EE"}} className="mb-5">{title} <span style={{color: "white"}}>Networks</span></Title>
               <p className="text-white mb-4">{text}</p>
-              <ButtonBasic to="" primary="true" dark="true" className="mx-auto">
-                {btnText}
-              </ButtonBasic>
             </div>
             <div className="col-lg-6 col-sm-12 img-wrap">
               <img src={image} alt="" className="fit-img"></img>
