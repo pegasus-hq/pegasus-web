@@ -1,8 +1,8 @@
 import React from "react";
 import {
   FooterContainer,
-  FooterH2,
-  FooterLink,
+  // FooterH2,
+  // FooterLink,
   FooterWrapper,
 } from "./FooterElements";
 import "./../../App.css";
@@ -10,8 +10,8 @@ import "./../../App.css";
 const Footer = () => {
   return (
     <FooterContainer>
-      <FooterWrapper className="container py-5">
-        <div className="row gx-5 px-4 gy-4">
+      <FooterWrapper className="container py-3">
+        {/* <div className="row gx-5 px-4 gy-4">
           <div className="col-lg-3 col-sm-6">
             <FooterH2>About Us</FooterH2>
             <FooterLink href="#">How it works</FooterLink>
@@ -41,10 +41,10 @@ const Footer = () => {
             <FooterLink href="#">Facebook</FooterLink>
             <FooterLink href="#">LinkedIn</FooterLink>
           </div>
-        </div>
+        </div> */}
         <div className="row">
-          <div className="col-12 mt-5 ">
-            <h1 className="logo-text gray-text center-align">- syntec -</h1>
+          <div className="col-12 mb-3">
+            <h1 className="logo-text center-align"><span style={{color: "#1584EE", fontSize: "20px"}}>pegasus </span><span style={{color: "white", fontSize: "19px"}}>networks</span></h1>
           </div>
         </div>
       </FooterWrapper>

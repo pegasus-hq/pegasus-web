@@ -20,7 +20,7 @@ export const Title = styled.h1 `
 `
 
 export const Subtitle = styled.h5 `
-    color: #B05FFD;
+    color: #1584EE;
     font-weight: 500;
     text-transform: uppercase;
 `

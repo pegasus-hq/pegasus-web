@@ -4,13 +4,13 @@ import "../../App.css";
 import { InfoContainer, InfoWrapper, Subtitle, Title } from "./InfoElements";
 import { ButtonBasicInv } from "../ButtonElements";
 
-export const InfoSectionLight = ({
+export const InfoSection2 = ({
   id,
   title,
   subtitle,
   text,
   image,
-  btnText,
+  btnText
 }) => {
   const openInNewTab = url => {
     window.open(url, '_blank', 'noopener,noreferrer');
@@ -30,7 +30,7 @@ export const InfoSectionLight = ({
               <p className="text-black mb-4">{text}</p>
               <ButtonBasicInv onClick={(e) => {
                 e.preventDefault();
-                openInNewTab("https://www.immutable.com/blog/immutable-x-is-making-nfts-carbon-neutral-on-ethereum");
+                openInNewTab("https://airtable.com/shrQ4fn5byIdJZfq4");
               }} 
               primary="false" dark="true" className="mx-auto">
                   {btnText}
@@ -43,4 +43,4 @@ export const InfoSectionLight = ({
   );
 };
 
-export default InfoSectionLight;
+export default InfoSection2;
