@@ -23,7 +23,7 @@ const HeroSection = () => {
   return (
     <HeroContainer>
       <HeroContent>
-        <h1 className="h1-hero">Certifying Your Academic and Professional Work</h1>
+        <h1 className="h1-hero">Authenticate Your Work</h1>
         <p className="hero-text">
           {/* Sign up today and recieve $250 in credit for your next successful
           project. */}
