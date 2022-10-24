@@ -8,14 +8,14 @@
   font-family: "Encode Sans Expanded", sans-serif;
 }
 
-html {
+/* html {
   overflow: scroll;
   overflow-x: hidden;
 }
 ::-webkit-scrollbar {
-  width: 0;  /* Remove scrollbar space */
-  background: transparent;  /* Optional: just make scrollbar invisible */
-}
+  width: 0;  
+  background: transparent;  /* Optional: just make scrollbar invisible 
+} */
 
 .logo-text {
   font: "Josefin Sans";
